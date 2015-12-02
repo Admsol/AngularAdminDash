@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular-mocks.js' ]
+2 info using npm@3.3.6
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData angular-mocks.js
+9 silly fetchOtherPackageData angular-mocks.js
+10 silly cache add args [ 'angular-mocks.js', null ]
+11 verbose cache add spec angular-mocks.js
+12 silly cache add parsed spec { raw: 'angular-mocks.js',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'angular-mocks.js',
+12 silly cache add   spec: '/Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js',
+12 silly cache add   type: 'local' }
+13 silly addLocalTarball shasum (computed) f1de2c0a5622e405142d4b0584459c98019a03fc
+14 verbose addTmpTarball /Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js not in flight; adding
+15 verbose addTmpTarball validating metadata from /Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js
+16 verbose tar unpack /Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js
+17 verbose tar unpacking to /var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9
+18 silly gentlyRm /var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9 is being purged
+19 verbose gentlyRm don't care about contents; nuking /var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js
+22 error addLocal Could not install /Applications/MAMP/htdocs/Gitrepo/AngularAdmin/angular-mocks.js
+23 silly fetchPackageMetaData Error: ENOENT, open '/var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json'
+23 silly fetchPackageMetaData  error for angular-mocks.js { [Error: ENOENT, open '/var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json']
+23 silly fetchPackageMetaData   errno: 34,
+23 silly fetchPackageMetaData   code: 'ENOENT',
+23 silly fetchPackageMetaData   path: '/var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json' }
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Starting
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: ENOENT, open '/var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json'
+30 verbose cwd /Applications/MAMP/htdocs/Gitrepo/AngularAdmin
+31 error Darwin 14.5.0
+32 error argv "node" "/usr/local/bin/npm" "install" "angular-mocks.js"
+33 error node v0.10.32
+34 error npm  v3.3.6
+35 error path /var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json
+36 error code ENOENT
+37 error errno 34
+38 error enoent ENOENT, open '/var/folders/xv/_77qc5lx2sl7j322jmn9r9lr0000gn/T/npm-66054-963fd984/unpack-ffcf65a22a7d6bb4929b4830a2c045e9/package.json'
+38 error enoent This is most likely not a problem with npm itself
+38 error enoent and is related to npm not being able to find a file.
+39 verbose exit [ 34, true ]

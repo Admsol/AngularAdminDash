@@ -1,8 +1,8 @@
 var app = angular.module('myApp', []);
 
 app.controller('myController', ['$scope', 'MyLogin', function ($scope, MyLogin) {
-    var ref = new Firebase("https://glaring-heat-3574.firebaseio.com/");
-    var REST_back = "https://glaring-heat-3574.firebaseio.com/";
+
+
     var loginResult;
 
     $scope.user = {
@@ -22,6 +22,10 @@ app.controller('myController', ['$scope', 'MyLogin', function ($scope, MyLogin) 
 
     }
 
+}]);
+
+app.controller('myController2', ['$scope', function ($scope) {
+    $scope.info = "Important information";
 }]);
 
 app.factory('MyLogin', ['$http', function ($http) {
@@ -45,7 +49,7 @@ app.factory('MyLogin', ['$http', function ($http) {
             }).error(function (res) {
                 console.log("ERROR:" + res);
             });
-            
+
         }
     }
 }]);
